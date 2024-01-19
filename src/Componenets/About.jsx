@@ -1,7 +1,7 @@
 import Profile from "../Images/word1.jpg";
 const About = () => {
   return (
-    <section id="About" className="p-5">
+    <section id="about" className="p-5 scroll-smooth">
       <div className="w-full flex flex-col gap-10 items-center justify-center md:flex-row md:max-w-screen-md mx-auto my-5 md:my-10">
         <div className="w-80 h-80">
           <img

@@ -1,6 +1,6 @@
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaFacebook, FaWhatsapp } from "react-icons/fa6";
-import Button from "./Button";
+
 
 const Footer = () => {
   const date = new Date().getFullYear();
@@ -12,7 +12,9 @@ const Footer = () => {
           <AiOutlineInstagram className="text-3xl text-white cursor-pointer" />
           <FaWhatsapp className="text-3xl text-white cursor-pointer" />
         </div>
-        <Button title="Download Sermons" />
+        <button className="bg-white text-emerald px-3 py-2 rounded-full font-bold cursor-pointer">
+              Download Sermons
+            </button>
       </div>
       <p className="text-white mt-15">
         Copyrights &copy; {date}. All rights reserved (Developed by Black Bobs)
